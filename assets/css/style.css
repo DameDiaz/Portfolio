@@ -1,0 +1,39 @@
+
+  body {
+    color: #10ebc7;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 25px 40px;
+    background-color: #5e5b5b;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #10ebc7;
+    margin: 0;
+    display: inline;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #10ebc7;
+  }
+  
+  header nav {
+    float: right;
+    margin: 6px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+  }
