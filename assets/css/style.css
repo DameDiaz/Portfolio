@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #04814d;
+  color:#024e76;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -17,6 +17,10 @@ nav {
   min-height: 12vh;
   background-color: #024e76;
   font-family: sans-serif;
+}
+
+nav ul li a:hover{
+color: red;
 }
 
 .logo {
@@ -90,7 +94,7 @@ nav {
 
 header a {
   text-decoration: none;
-  color: #04814d;
+  color: #024e76;
 }
 
 header nav {
@@ -111,6 +115,7 @@ header nav ul li a {
 }
 /*-- End of Header--*/
 
+/*-- about me section--*/
 .intro {
   text-align: center;
   float: right;
@@ -118,26 +123,29 @@ header nav ul li a {
 }
 
 .intro p {
- line-height: 1.7;
- color: #04814d;
- width: 80%;
- font-size: 20px;
- margin: 0 auto;
+ padding: 250px;
+ float: right;
+ width: 70%;
 }
 
-.work {
- text-align: center;
- margin: 15px;
+.picture {
+  width: 25%;
+  float: right;
 }
 
 h2 {
-   font-size: 55px;
+   font-size: 45px;
    color: #024e76;
    margin-bottom: 35px;
-   padding: 0 100px 20px 100px;
+   padding: 80px 100px 20px 100px;
    display: inline-block;
    border-bottom: 3px solid;
    text-align: center;
+ }
+
+ .work {
+  text-align: center;
+  margin: 15px;
  }
 
  .contact {
