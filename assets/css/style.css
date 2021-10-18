@@ -173,8 +173,29 @@ h2 {
  .resume {
    text-align: center;
    background-color: rgb(243, 228, 140);
-
  }
 
+ footer {
+  background: #024e76;
+  width: 100%;
+  padding: 40px 35px;
+}
 
+footer h3 {
+  display: inline;
+  color: rgb(243, 228, 140);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer a {
+  color: rgb(243, 228, 140);
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+  color:rgb(243, 228, 140);
+}
 
