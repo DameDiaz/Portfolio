@@ -118,19 +118,24 @@ header nav ul li a {
 /*-- about me section--*/
 .intro {
   text-align: center;
-  float: right;
+  float: left;
   margin: 10px;
+  background-color: rgb(243, 228, 140);
 }
 
 .intro p {
- padding: 250px;
- float: right;
- width: 70%;
+ line-height: 1.7;
+ width: 80%;
+ font-size: 20px;
+ margin: 0 auto;
+ background-color: rgb(243, 228, 140);
 }
 
 .picture {
   width: 25%;
-  float: right;
+  text-align: center;
+  margin: 13.5px; ;
+  background-color: rgb(243, 228, 140);
 }
 
 h2 {
@@ -148,13 +153,26 @@ h2 {
   margin: 15px;
  }
 
+ .run-buddy {
+  width: 25%;
+  text-align: center;
+  margin: 13.5px; ;
+  border: 5px solid #555;
+ }
+
+ .coming-soon {
+  border: 5px solid #555;
+ }
+
  .contact {
    text-align: center;
+   background-color: rgb(243, 228, 140);
 
  }
 
  .resume {
    text-align: center;
+   background-color: rgb(243, 228, 140);
 
  }
 
